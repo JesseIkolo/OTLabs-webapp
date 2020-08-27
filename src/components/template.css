@@ -1,0 +1,86 @@
+
+:root {
+   --black: #101216;
+   --white:#fff;
+   --Grey-1: #131313;
+   --Grey-2: #212121;
+   --violetta-10 : #f4e5ff;
+   --violetta-9 : #ddb3ff;
+   --violetta-8 : #c780ff;
+   --violetta-7 : #b14dff;
+   --violetta-6 : #9a1aff;
+   --violetta-5 : #8100e6;
+   --violetta-4 : #6400b3;
+   --violetta-3 : #470080;
+   --violetta-2 : #2b004d;
+   --violetta-1 : #0e001a;
+   --Blue-1: #040615;
+   --Blue-2: #0d1340;
+   --Blue-3: #15206a;
+   --Blue-4: #1d2d95;
+   --Blue-5: #263ac0;
+   --Blue-6: #3f53d9;
+   --Blue-7: #6a7ae2;
+   --Blue-8: #95a0ea;
+   --Blue-9: #bfc6f2;
+   --Blue-10: #eaecfb;
+   --Red-1: #190201;
+   --Red-2: #4a0602;
+   --Red-3: #7c0a03;
+   --Red-4: #ae0e05;
+   --Red-5: #df1206;
+   --Red-6: #f92b20;
+   --Red-7: #fa5a51;
+   --Red-8: #fc8983;
+   --Red-9: #fdb8b5;
+   --Red-10: #fee7e6;
+   --Green-1: #00190e;
+   --Green-2: #004c2b;
+   --Green-3: #017f47;
+   --Green-4: #01b264;
+   --Green-5: #01e480;
+   --Green-6: #1bfe9a;
+   --Green-7: #4dfeb0;
+   --Green-8: #80fec7;
+   --Green-9: #b3ffdd;
+   --Green-10: #e6fff4;
+   --Yellow-1: #191300;
+   --Yellow-2: #4c3a01;
+   --Yellow-3: #7e6002;
+   --Yellow-4: #b08602;
+   --Yellow-5: #e3ad03;
+   --Yellow-6: #fcc61c;
+   --Yellow-7: #fdd34f;
+   --Yellow-8: #fde081;
+   --Yellow-9: #feecb3;
+   --Yellow-10: #fff9e6;
+   --primary-color: var(--violetta-4);
+   /* --primary-color: #2A40D9; */
+   --secondary-color: #FFCB3D;
+   --hint-text-color : var(--Blue-5);
+   --background-inverse : #fff;
+   --background-inverse-alt : var(--Blue-10);
+   --text-color-inverse : var(--Grey-1);
+   --background-hover : var(--Red-9);
+   --text-color-hover : var(--white);
+   --background-blured: rgba(196, 196, 196, 0.13);
+   --border-blured-color: rgba(196, 196, 196, 0.2);
+   --global-radius: 32px;
+   --text-color: #fff;
+   --grid-width: 80px;
+   --grid-glutter: 48px;
+   --grid-gap : 32px;
+   --transform-scale-ratio : 1.05
+}
+
+*,
+*:after,
+*:before {
+   border: none;
+   box-sizing: border-box;
+   margin: 0;
+   outline: none;
+   padding: 0;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   -webkit-tap-highlight-color: transparent;
+}
