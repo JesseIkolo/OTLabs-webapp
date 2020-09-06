@@ -50,7 +50,7 @@ const Header = ({ siteTitle }) =>(
                   background={true}
                   backgroundColor="#fff"
                   textColor="var(--primary-color)"
-                  to=""
+                  to="signUp"
                   />
             </li>
           </ul>

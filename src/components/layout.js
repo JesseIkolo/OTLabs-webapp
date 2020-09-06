@@ -9,7 +9,6 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
 import Footer from "./footer"
 import {Container} from "./molecule"
 import "./layout.css"
@@ -31,7 +30,6 @@ class Layout extends React.Component{
 render(){
   return (
     <>
-      <Header siteTitle={'data.site.siteMetadata.title'} />
       <div className="cosmos-content">
          <main className="">{this.props.children}</main>
       {/* <Footer/> */}

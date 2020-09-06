@@ -4,11 +4,13 @@ import Layout from '../components/layout'
 import {TextButton, Notification, Para, socialButton} from '../components/molecule'
 import {CosmoIcon} from '../components/cosmoIcon'
 import SEO from "../components/seo"
+import Header from "../components/header"
 
 const IndexPage = ({ data }) => {
   
     return (
       <>
+       <Header siteTitle={'data.site.siteMetadata.title'} />
         <Layout>
           <SEO title="Rejoignez notre centre" />
           <div className="cosmos-grid-container home-slider end">

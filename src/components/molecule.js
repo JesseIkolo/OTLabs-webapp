@@ -19,10 +19,9 @@ Container.defaultProps = {
   id: ``,
 }
 
-const TextButton = ({ icon, text, to,background, backgroundColor, textColor,cosmoIcon}) => (
-
+const TextButton = ({ icon, text,type, to,background, backgroundColor, textColor,cosmoIcon}) => (
   <Link 
-  className={background ? ("cosmo-text-button"):("cosmo-text-button no-back")}
+  className={background ? ("cosmo-text-button" + " " + type) :("cosmo-text-button no-back")}
   style={backgroundColor ? ({backgroundColor : backgroundColor}):null}
    to={to}>
     <span style={textColor ? ({color : textColor}):null}
@@ -41,9 +40,9 @@ const TextButton = ({ icon, text, to,background, backgroundColor, textColor,cosm
         >
           {
             cosmoIcon ? (
-              <CosmoIcon icon={icon}/>
+              <CosmoIcon icon={icon} iconColor={background ? (backgroundColor):("var(--primary-color)")}/>
             ):(
-              <span className={'icon ' + icon}/>
+              <span className={'icon ' + icon} style={background ? ({color : backgroundColor}):({color : "var(primary-color)"})}/>
             )
           }
           
@@ -51,6 +50,7 @@ const TextButton = ({ icon, text, to,background, backgroundColor, textColor,cosm
       ):null
     }
   </Link>
+  
 )
 
 TextButton.propTypes = {
