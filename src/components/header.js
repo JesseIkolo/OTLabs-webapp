@@ -31,10 +31,13 @@ const Header = ({ siteTitle }) =>(
               <Link to="../labs">OneTouch Labs</Link>
             </li>
             <li>
-              <Link to="../programs">Programmes</Link>
+              <Link to="../programs">Programmes </Link>
             </li>
             <li>
               <Link to="../contact">Alumni Projects<span className="soon">Bientot</span></Link>
+            </li>
+            <li>
+              <Link to="../newsEvents">News & Events<span className="soon">Bientot</span></Link>
             </li>
             <li>
               <Link to="../partenaires">Partenaires</Link>

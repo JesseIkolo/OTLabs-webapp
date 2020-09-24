@@ -65,9 +65,12 @@ TextButton.defaultProps = {
   to:``
 }
 
-const SquaredButton =({icon, color}) =>(
-  <Link className="squared-button" style={{backgroundColor : color}}>
-    <span className={'icon ' + icon}/>
+const SquaredButton =({cosmoIcon, icon, iconColor, backgroundColor, size}) =>(
+  <Link className={size ? ("squared-button " + size) : ("squared-button")} style={{backgroundColor : backgroundColor}}>
+    {cosmoIcon ? 
+    (<CosmoIcon iconColor={iconColor} icon={icon}/>)
+    :
+    (<span className={'icon ' + icon}/>)}
   </Link>
 )
 
@@ -203,5 +206,5 @@ Para.propTypes = {
 // }
 
 // export default Container
-export { Container, TextButton, Notification, ContactInfo, BeautifulLink, Tag, Project, Para, socialButton}
+export { Container, TextButton, Notification, ContactInfo, BeautifulLink, Tag, Project, Para, socialButton, SquaredButton}
 

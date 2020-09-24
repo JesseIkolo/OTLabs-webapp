@@ -42,6 +42,7 @@ export default function Program(props) {
            background={true}
            backgroundColor="var(--primary-color)"
            textColor="var(--text-color)"
+           to={props.to}
          />
        </div>
      </div>

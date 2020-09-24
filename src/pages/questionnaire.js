@@ -79,7 +79,7 @@ numberFive : "",
                   </div>
                   <div className="form align-left medium">
                     <div className="evo-sliders">
-                      <div className="slide active">
+                      <div className="slide">
                         <h1>Aidez-nous à nous ameliorer !</h1>
                         <h2>Nous voulons constement vous ameliorer OTL Learning. Repondez à ce petit questionnaire pour nous aider à vous proposer la meilleure experience.</h2>
                         <form class="large">
@@ -133,7 +133,7 @@ numberFive : "",
                         </form>
 
                       </div>
-                      <div className="slide">
+                      <div className="slide active">
                         <h1>Que voulez vous apprendre ?</h1>
                         <h2>Quels sont vos centre d'interet parmi nos selection de cours ?</h2>
                           <div className="cards">
@@ -215,13 +215,13 @@ numberFive : "",
                         </form>
 
                       </div>
-                      
+
                     </div>
                     <div className="control">
                     <div class="progression">
-                      <div className="step active" onClick={(e) => this.swippeTo(0,e)}>
+                      <div className="step" onClick={(e) => this.swippeTo(0,e)}>
                       </div>
-                      <div className="step" onClick={(e) => this.swippeTo(1,e)}>
+                      <div className="step active" onClick={(e) => this.swippeTo(1,e)}>
                       </div>
                       <div className="step" onClick={(e) => this.swippeTo(2,e)}>
                       </div>
