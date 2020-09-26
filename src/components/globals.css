@@ -160,7 +160,7 @@ body {
    padding: 64px 0;
    display: grid;
    margin: auto;
-   max-width: calc(var(--grid-width) * 12 + var(--grid-gap) * 12);
+   max-width: calc((var(--grid-width)+ var(--grid-gap))*12);
    height: fit-content;
 
    grid-template-columns: repeat(12, minmax(var(--grid-width), 1fr));
@@ -308,7 +308,7 @@ body {
 
 .container {
    /* max-width: calc(1120px - 2*var(--grid-width)); */
-   max-width: calc(var(--grid-width) * 12 + var(--grid-gap) * 12);
+   max-width: calc((var(--grid-width)+ var(--grid-gap))*12);
    margin: 0 auto;
    width: 100%;
 }
@@ -461,7 +461,7 @@ body {
    padding: 32px 0;
    display: grid;
    margin: auto;
-   max-width: calc(var(--grid-width) * 12 + var(--grid-gap) * 12);
+   max-width: calc((var(--grid-width)+ var(--grid-gap))*12);
    height: fit-content;
 
    grid-template-columns: repeat(12, minmax(var(--grid-width), 1fr));
