@@ -2,7 +2,7 @@
 :root {
    --black: #101216;
    --white:#fff;
-   --Grey-1: #131313;
+   --Grey-1: rgb(19, 19, 19);
    --Grey-2: #212121;
    --Grey-5:#737373;
    --Grey-8:#bfbfbf;
@@ -68,7 +68,7 @@
    --text-color-inverse : var(--Grey-1);
    --background-hover : var(--Red-9);
    --text-color-hover : var(--white);
-   --background-blured: rgba(196, 196, 196, 0.13);
+   --background-blured: rgba(19,19, 19, 0.3);
    --border-blured-color: rgba(196, 196, 196, 0.2);
    --light-background : #fff;
    --global-radius: 24px;
@@ -76,6 +76,9 @@
    --grid-width: 96px;
    --grid-glutter: 48px;
    --grid-gap : 24px;
+   --mini-grid-width: 56px;
+   --mini-grid-glutter: 24px;
+   --mini-grid-gap : 24px;
    --transform-scale-ratio : 1.05
 }
 

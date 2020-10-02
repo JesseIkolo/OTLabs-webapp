@@ -65,8 +65,8 @@ TextButton.defaultProps = {
   to:``
 }
 
-const SquaredButton =({cosmoIcon, icon, iconColor, backgroundColor, size}) =>(
-  <Link className={size ? ("squared-button " + size) : ("squared-button")} style={{backgroundColor : backgroundColor}}>
+const SquaredButton =({cosmoIcon, icon, iconColor, backgroundColor, size, to}) =>(
+  <Link to={to} className={size ? ("squared-button " + size) : ("squared-button")} style={{backgroundColor : backgroundColor}}>
     {cosmoIcon ? 
     (<CosmoIcon iconColor={iconColor} icon={icon}/>)
     :
@@ -102,9 +102,9 @@ function Notification(props) {
   );
 }
 
-function socialButton(props){
+function SocialButton(props){
   return(
-    <Link to={"https://www." + props.for + ".com/" + "jesseikolo" }>
+    <Link className="social-button" to={props.to}>
        <CosmoIcon icon={props.for}/>
     </Link>
   )
@@ -206,5 +206,5 @@ Para.propTypes = {
 // }
 
 // export default Container
-export { Container, TextButton, Notification, ContactInfo, BeautifulLink, Tag, Project, Para, socialButton, SquaredButton}
+export { Container, TextButton, Notification, ContactInfo, BeautifulLink, Tag, Project, Para, SocialButton, SquaredButton}
 
