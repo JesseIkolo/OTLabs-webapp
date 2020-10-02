@@ -11,7 +11,8 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Footer from "./footer"
 import {Container} from "./molecule"
-import {TextButton, Notification, Para, SocialButton, SquaredButton} from '../components/molecule'
+import {CosmoIcon} from "./cosmoIcon"
+import {TextButton,  Notification, Para, SocialButton, SquaredButton} from '../components/molecule'
 
 import "./layout.css"
 import "./globals.css"
