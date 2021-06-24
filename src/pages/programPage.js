@@ -14,7 +14,7 @@ const ProgramPage = ({ data }) => {
         <Layout>
           <div className="whited">
             <Header siteTitle={'data.site.siteMetadata.title'} />
-            <SEO title="Rejoignez notre centre" />
+            <SEO title="Rejoignez-nous !" />
             <div className="cosmos-section whited eight-height alt">
               <div className="cosmos-section-inner graded">
                 <div className="cosmos-grid-container home-slider program-slider end">

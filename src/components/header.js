@@ -68,6 +68,31 @@ const Header = ({ siteTitle }) =>{
                   Business
                 </Link>
               </li>
+              <li id="primary_nav_wrap">
+              <ul>
+                <li><a href="#">Pays</a>
+                  <ul>
+                    <li><a href="#">Douala</a></li>
+                    <li><a href="#">Libreville</a></li>
+                    <li><a href="#">Kinshasa</a></li>
+                    <li><a href="#">Brazaville</a>
+                      <ul>
+                        <li><a href="#">Deep Menu 1</a>
+                          <ul>
+                            <li><a href="#">Sub Deep 1</a></li>
+                            <li><a href="#">Sub Deep 2</a></li>
+                            <li><a href="#">Sub Deep 3</a></li>
+                              <li><a href="#">Sub Deep 4</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#">Deep Menu 2</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Sub Menu 5</a></li>
+                  </ul>
+                </li>
+              </ul>
+              </li>
           </ul>
           </div>
           <ul className="nav-links">
@@ -83,13 +108,13 @@ const Header = ({ siteTitle }) =>{
             <li>
               <Link to="../newsEvents">News & Events<span className="soon">Bientot</span></Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="../partenaires">Partenaires</Link>
-            </li>
+            </li> */}
             {/* <li>
               <Link to="../FAQs">FAQs</Link>
             </li> */}
-            <li>
+            <li className="button">
               <TextButton 
                   icon="user-ok" 
                   cosmoIcon={true}
@@ -100,8 +125,11 @@ const Header = ({ siteTitle }) =>{
                   to="signUp"
                   />
             </li>
+            <li className="navigation-show">
+              <CosmoIcon icon="menu"/>
+            </li>
           </ul>
-          <div className="navigation-show"></div>
+          
       </div>
     {/* <div
       style={{

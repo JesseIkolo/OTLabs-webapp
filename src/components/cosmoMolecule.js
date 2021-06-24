@@ -8,7 +8,7 @@ import { useStaticQuery, graphql } from "gatsby"
 // import {Container} from "./molecule"
 import "./conversation.css"
 import "./globals.css"
-import "../assets/fonts/font-styles.css"
+import "../assets/fonts/fonts.css"
 import "../assets/fonts/ionicons.css"
 
 const Conversationheader = ({ type, url, title, subtitle})=> {

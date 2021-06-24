@@ -13,10 +13,10 @@ import Footer from "./footer"
 import {Container} from "./molecule"
 import {CosmoIcon} from "./cosmoIcon"
 import {TextButton,  Notification, Para, SocialButton, SquaredButton} from '../components/molecule'
-
+import CustomerChat from '../components/customChat'
 import "./layout.css"
 import "./globals.css"
-import "../assets/fonts/font-styles.css"
+import "../assets/fonts/fonts.css"
 import "../assets/fonts/ionicons.css"
 import $ from 'jquery/dist/jquery.slim' // importing this worked like a charm
 
@@ -102,6 +102,7 @@ function Layout(props) {
             </div>
           </div>
       </div>
+      <CustomerChat />
     </>
   
   )

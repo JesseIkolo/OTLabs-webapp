@@ -1,0 +1,107 @@
+@font-face {
+   font-family: 'Sharp Grotesk DB Cyr Book 22';
+   src: url('SharpGroteskDBCyrBook22.woff2') format('woff2'),
+       url('SharpGroteskDBCyrBook22.woff') format('woff'),
+       url('SharpGroteskDBCyrBook22.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Sharp Grotesk DB Cyr Book Italic 20';
+   src: url('SharpGroteskDBCyrBookItalic20.woff2') format('woff2'),
+       url('SharpGroteskDBCyrBookItalic20.woff') format('woff'),
+       url('SharpGroteskDBCyrBookItalic20.ttf') format('truetype');
+   font-weight: normal;
+   font-style: italic;
+}
+
+@font-face {
+   font-family: 'Sharp Grotesk DB Cyr SmBold 20';
+   src: url('SharpGroteskDBCyrSmBold20.woff2') format('woff2'),
+       url('SharpGroteskDBCyrSmBold20.woff') format('woff'),
+       url('SharpGroteskDBCyrSmBold20.ttf') format('truetype');
+   font-weight: bold;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'SharpGroteskDB Book 13';
+   src: url('SharpGroteskBook13.woff2') format('woff2'),
+       url('SharpGroteskBook13.woff') format('woff'),
+       url('SharpGroteskBook13.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'SharpGroteskDB SmBold 13';
+   src: url('SharpGroteskSmBold13.woff2') format('woff2'),
+       url('SharpGroteskSmBold13.woff') format('woff'),
+       url('SharpGroteskSmBold13.ttf') format('truetype');
+   font-weight: bold;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'SharpGroteskDB Book 11';
+   src: url('SharpGroteskBook11.woff2') format('woff2'),
+       url('SharpGroteskBook11.woff') format('woff'),
+       url('SharpGroteskBook11.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Sharp Grotesk DB Cyr SmBold 22';
+   src: url('SharpGroteskDBCyrSmBold22.woff2') format('woff2'),
+       url('SharpGroteskDBCyrSmBold22.woff') format('woff'),
+       url('SharpGroteskDBCyrSmBold22.ttf') format('truetype');
+   font-weight: bold;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'SharpGroteskDB SmBold 11';
+   src: url('SharpGroteskSmBold11.woff2') format('woff2'),
+       url('SharpGroteskSmBold11.woff') format('woff'),
+       url('SharpGroteskSmBold11.ttf') format('truetype');
+   font-weight: bold;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Sharp Grotesk DB Cyr Medium Italic 20';
+   src: url('SharpGroteskDBCyrMediumItalic20.woff2') format('woff2'),
+       url('SharpGroteskDBCyrMediumItalic20.woff') format('woff'),
+       url('SharpGroteskDBCyrMediumItalic20.ttf') format('truetype');
+   font-weight: 500;
+   font-style: italic;
+}
+
+@font-face {
+   font-family: 'Sharp Grotesk DB Cyr Book 20';
+   src: url('SharpGroteskDBCyrBook20.woff2') format('woff2'),
+       url('SharpGroteskDBCyrBook20.woff') format('woff'),
+       url('SharpGroteskDBCyrBook20.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Sharp Grotesk DB Cyr SmBold Itl 20';
+   src: url('SharpGroteskDBCyrSmBoldItalic20.woff2') format('woff2'),
+       url('SharpGroteskDBCyrSmBoldItalic20.woff') format('woff'),
+       url('SharpGroteskDBCyrSmBoldItalic20.ttf') format('truetype');
+   font-weight: bold;
+   font-style: italic;
+}
+
+@font-face {
+   font-family: 'Sharp Grotesk DB Cyr Medium 22';
+   src: url('SharpGroteskDBCyrMedium22.woff2') format('woff2'),
+       url('SharpGroteskDBCyrMedium22.woff') format('woff'),
+       url('SharpGroteskDBCyrMedium22.ttf') format('truetype');
+   font-weight: 500;
+   font-style: normal;
+}

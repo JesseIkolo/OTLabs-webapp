@@ -16,13 +16,13 @@ const IndexPage = ({ data }) => {
           <SEO title="Rejoignez notre centre" />
           <div className="cosmos-section">
             <div className="cosmos-grid-container home-slider end">
-            <h1 className="supra colored-text">
-                Tu peux aussi devenir <br />
-                    expert en <span className="Rotator">developpement web et mobile</span>
-                  </h1>
-                  <h1 className="kilo">
-                En rejoignant notre centre de developpement de competence et d'innovation
-                  </h1>
+                  <p className="kilo">
+                   Rejoins notre centre  d'innovation et de developpement de competences et ...
+                  </p>
+              <h1 className="supra colored-text">
+                 Deviens expert en apprenant avec des professionnels des metiers du numerique
+              </h1>
+                  
               <ul className="clarify two">
                 <li>
                   <h2>
@@ -285,7 +285,7 @@ const IndexPage = ({ data }) => {
           </div>
           <div className="cosmos-section semi-height  ">
             <div className="cosmos-grid-container home-card whited large">
-                <div className ="card-group padded">
+                <div className ="card-group">
                   <h1 className="mega">
                     Sessions d'Octobre 2020 <br/>sont ouvertes.
                   </h1>

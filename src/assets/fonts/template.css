@@ -2,21 +2,8 @@
 :root {
    --black: #101216;
    --white:#fff;
-   --Grey-1: rgb(19, 19, 19);
+   --Grey-1: #131313;
    --Grey-2: #212121;
-   --Grey-5:#737373;
-   --Grey-8:#bfbfbf;
-   --Grey-9 : #d9d9d9;
-   --violetta-10 : #f4e5ff;
-   --violetta-9 : #ddb3ff;
-   --violetta-8 : #c780ff;
-   --violetta-7 : #b14dff;
-   --violetta-6 : #9a1aff;
-   --violetta-5 : #8100e6;
-   --violetta-4 : #6400b3;
-   --violetta-3 : #470080;
-   --violetta-2 : #2b004d;
-   --violetta-1 : #0e001a;
    --Blue-1: #040615;
    --Blue-2: #0d1340;
    --Blue-3: #15206a;
@@ -41,7 +28,7 @@
    --Green-2: #004c2b;
    --Green-3: #017f47;
    --Green-4: #01b264;
-   --Green-5 : #25D482;
+   --Green-5: #01e480;
    --Green-6: #1bfe9a;
    --Green-7: #4dfeb0;
    --Green-8: #80fec7;
@@ -57,28 +44,20 @@
    --Yellow-8: #fde081;
    --Yellow-9: #feecb3;
    --Yellow-10: #fff9e6;
-   --facebook-color: #3B5998;
-   --google-color: #EA4335;
-   --primary-color:var(--violetta-3);
-   --secondary-color: #FFCB3D;
-   --third-color: var(--Blue-5);
+   --primary-color: #feecb3;
+   --secondary-color: #f92b20;
    --hint-text-color : var(--Blue-5);
    --background-inverse : #fff;
    --background-inverse-alt : var(--Blue-10);
    --text-color-inverse : var(--Grey-1);
    --background-hover : var(--Red-9);
    --text-color-hover : var(--white);
-   --background-blured: rgba(19,19, 19, 0.3);
+   --background-blured: rgba(196, 196, 196, 0.13);
    --border-blured-color: rgba(196, 196, 196, 0.2);
-   --light-background : #fff;
-   --global-radius: 24px;
+   --global-radius: 0;
    --text-color: #fff;
-   --grid-width: 80px;
+   --grid-width: 64px;
    --grid-glutter: 48px;
-   --grid-gap : 24px;
-   --mini-grid-width: 56px;
-   --mini-grid-glutter: 24px;
-   --mini-grid-gap : 24px;
    --transform-scale-ratio : 1.05
 }
 

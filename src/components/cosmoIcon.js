@@ -350,6 +350,17 @@ function CosmoIcon(props){
             <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" fill={props.iconColor} viewBox="0 0 24 24"><path d="M13.41,12l4.3-4.29a1,1,0,1,0-1.42-1.42L12,10.59,7.71,6.29A1,1,0,0,0,6.29,7.71L10.59,12l-4.3,4.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l4.29,4.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z"/></svg>
          )
       }
+      else if(props.icon === "menu"){
+         return(
+            <svg width="34" height="16" viewBox="0 0 34 16" fill={props.iconColor}  xmlns="http://www.w3.org/2000/svg">
+<path d="M0 2C1.79831 2 34 2 34 2V0C32.3949 0 0 0 0 0V2ZM34 7H0V9C1.79831 9 32.3949 9 34 9V7ZM34 14H0V16C1.79831 16 32.3949 16 34 16V14Z" fill="black"/>
+</svg>
+
+
+
+
+         )
+      }
       else if ( props.icon === "bill"){
          return(
             <svg width="20" height="20" viewBox="0 0 24 24" fill={props.iconColor} xmlns="http://www.w3.org/2000/svg">
