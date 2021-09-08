@@ -80,13 +80,22 @@
 }
 
 @font-face {
-   font-family: 'Sharp Grotesk DB Cyr Book 20';
-   src: url('SharpGroteskDBCyrBook20.woff2') format('woff2'),
-       url('SharpGroteskDBCyrBook20.woff') format('woff'),
-       url('SharpGroteskDBCyrBook20.ttf') format('truetype');
-   font-weight: normal;
-   font-style: normal;
-}
+    font-family: 'Sharp Grotesk DB Cyr Book 20';
+    src: url('SharpGroteskDBCyrBook20.woff2') format('woff2'),
+        url('SharpGroteskDBCyrBook20.woff') format('woff'),
+        url('SharpGroteskDBCyrBook20.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'Sharp Grotesk DB Cyr Book 19';
+    src: url('SharpGroteskDBCyrBook20.woff2') format('woff2'),
+        url('SharpGroteskDBCyrBook20.woff') format('woff'),
+        url('SharpGroteskDBCyrBook20.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+ }
 
 @font-face {
    font-family: 'Sharp Grotesk DB Cyr SmBold Itl 20';

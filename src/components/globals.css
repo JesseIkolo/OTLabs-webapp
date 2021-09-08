@@ -37,13 +37,11 @@ h2 {
    font-family: 'Sharp Grotesk DB Cyr SmBold 20', sans-serif;
 }
 
-h3{
-   font-size: 18px;
-   line-height: 170%;
+h3 {
+   font-size: 16px;
+   line-height: 100%;
    margin-top: 16px;
-   /* font-family: 'Sharp Grotesk DB Cyr SmBold 20', sans-serif; */
-   font-family: 'Sharp Grotesk DB Cyr Book', sans-serif;
-   opacity: .8;
+   font-family: 'Sharp Grotesk DB Cyr SmBold 20', sans-serif;
 }
 
 p {
@@ -85,7 +83,7 @@ p {
 }
 
 body {
-   font-family: 'Sharp Grotesk DB Cyr Book';
+   font-family: "Sharp Grotesk DB Cyr Book 19";
    font-style: normal;
    font-weight: normal;
    font-size: 16px;
@@ -440,7 +438,7 @@ body {
 }
 
 .home-slider h1,.home-slider p.kilo,.home-slider h3, .home-slider .home-slider-header, .home-slider .cosmo-text-button{
-   grid-column: 1 / 7;
+   grid-column: 1 / 9;
    grid-row-start: span 1;
 }
 
@@ -957,6 +955,11 @@ h1.supra {
    font-size: 48px;
 }
 
+h1.tera {
+   font-size: 56px;
+
+}
+
 
 
 .cosmo-text-button {
@@ -1130,7 +1133,9 @@ h1.supra {
 
 .program .program-summary .program-sumary-details .subtitle h3{
    color : var(--Grey-2);
-   padding-left : 16px
+   padding-left : 16px;
+   margin: 12px 0;
+
 }
 
 .program .program-summary h2{
@@ -1635,6 +1640,7 @@ h1.supra {
   }
    .cosmos-grid-container {
       /* padding: 64px 0; */
+      padding: 0;
       max-width: calc((var(--mini-grid-width) + var(--mini-grid-gap))*12);
       grid-template-columns: repeat(12, minmax(var(--mini-grid-width), 1fr));
       grid-template-rows: minmax(50px, 1fr);
@@ -1651,16 +1657,16 @@ h1.supra {
    
    
    h1.mega {
-      font-size: 18px;
+      font-size: 24px;
    
    }
    
    h1.giga {
-      font-size: 24px;
+      font-size: 28px;
    }
    
    h1.supra {
-      font-size: 28px;
+      font-size: 32px;
    }
 
    h2 {

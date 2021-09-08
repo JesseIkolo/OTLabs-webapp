@@ -16,12 +16,10 @@ const IndexPage = ({ data }) => {
           <SEO title="Rejoignez notre centre" />
           <div className="cosmos-section">
             <div className="cosmos-grid-container home-slider end">
-                  <p className="kilo">
-                   Rejoins notre centre  d'innovation et de developpement de competences et ...
-                  </p>
-              <h1 className="supra colored-text">
-                 Deviens expert en apprenant avec des professionnels des metiers du numerique
+              <h1 className="tera colored-text">
+                 Rejoindre OneTouch Labs Academy
               </h1>
+              <p className="home-intro">Pour devenir, futur batisseur du numerique africain</p>
                   
               <ul className="clarify two">
                 <li>
@@ -158,13 +156,13 @@ const IndexPage = ({ data }) => {
             <div className="cosmos-grid-container home-slider ">
             <div className="home-slider-header">
                 <h1 className="mega">
-                  Votre certificat vous attend !
+                  Un certificat de fin de formation !
                 </h1>
-                <h3>
+                {/* <h3>
                   A la fin de votre formation, nous vous delivrons un certificat, 
                   pour faire valoir legalement votre non seulement savoir, mais egalement votre savoir-faire et vos savoir-etre 😏.
                   l'OTL Verified Certificate est obtenu grace à :
-                </h3>
+                </h3> */}
               </div>
               <ul className="clarify one-large">
                 <li>
