@@ -17,22 +17,22 @@ const IndexPage = ({ data }) => {
           <div className="cosmos-section">
             <div className="cosmos-grid-container home-slider end">
               <h1 className="tera colored-text">
-                 Rejoindre OneTouch Labs Academy
+                 Rejoins OneTouch Labs Academy ...
               </h1>
-              <p className="home-intro">Pour devenir, futur batisseur du numerique africain</p>
+              <h2 className="home-intro">Pour apprendre un nouveau metier 3.0 <br/> et devenir acteur du digital africain.</h2>
                   
               <ul className="clarify two">
                 <li>
                   <h2>
-                    Pour devenir expert du numerique
-                        </h2>
+                    En accedant a un large socle <br/> de competences pro...
+                  </h2>
                   <p>
-                    En apprenant un metier 2.0 rapidement grâce à des cours, atelier et projets axés sur l’innovation et la créativité.
-                        </p>
+                   Axés sur l’innovation et la créativité, afin de faire de toi un future <b>Digital Change Maker</b> en Afrique.
+                  </p>
                 </li>
                 <li>
                   <h2>
-                    Pour pratiquez dès le <br/>jour zero.
+                    En pratiquant dès le jour zero, <br/>avec des pros.
                         </h2>
                   <p>
                     Toucher des le depart des exemples et apprenez tres vites a monter des projets de design et de codage de A-z.

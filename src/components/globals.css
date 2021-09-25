@@ -57,6 +57,9 @@ ul {
 .colored-text{
    color: var(--secondary-color);
 }
+.home-intro{
+font-size: 28px;
+}
 
 .alt .cosmos-grid-container .colored-text{
    color: var(--primary-color);
@@ -437,7 +440,7 @@ body {
    margin: 0;
 }
 
-.home-slider h1,.home-slider p.kilo,.home-slider h3, .home-slider .home-slider-header, .home-slider .cosmo-text-button{
+.home-slider h1,.home-slider h2,.home-slider p.kilo,.home-slider h3, .home-slider .home-slider-header, .home-slider .cosmo-text-button{
    grid-column: 1 / 9;
    grid-row-start: span 1;
 }
@@ -551,7 +554,7 @@ body {
 
 .clarify li, .program-clarify li{
    margin-bottom: 32px;
-   grid-column: span 3;
+   grid-column: span 4;
 
 }
 
