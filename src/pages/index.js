@@ -78,13 +78,14 @@ const IndexPage = ({ data }) => {
           </div>
 
           <div className="cosmos-section semi-height  padded-64">
-            <div className="cosmos-grid-container home-slider center">
+            <div className="cosmos-grid-container home-slider left">
               <div className="home-slider-header">
-              <h1 className="mega">
-                Pourquoi venir apprendre <br />avec nous ?
+              <h1 className="supra colored-text">
+                Deviens expert dans un metier du numerique, taille ta vision professionelle.
               </h1>
+              <h2 className="home-intro">Parce que notre ambition est calée sur la tienne, nous mettons tout en œuvre pour rassembler les ressources nécessaires à ton déploiement dans le monde du digital.</h2>
               </div>
-              <ul className="clarify four">
+              <ul className="clarify three">
                 <li>
                   <SquaredButton
                     size="x2"
@@ -94,7 +95,7 @@ const IndexPage = ({ data }) => {
                     backgroundColor="var(--background-blured)"
                   />
                   <h2>
-                    Vous apprendrez avec des creatifs et des passionnés.
+                    Apprendre avec le « savoir par le faire » et ameliorer le « savoir etre »
                   </h2>
                   <p>
                     Pas besoin d'etre un designer pour etre faire des choses creatives,
@@ -118,6 +119,22 @@ const IndexPage = ({ data }) => {
                     pour rapidement prendre en main votre futur metier, partant de zero, nous vous aiderons
                     à produire des resultat, rapidement, et de classe.                        </p>
                 </li>
+                
+              </ul>
+            </div>
+          </div>
+
+          <div className="cosmos-section semi-height  padded-64">
+            <div className="cosmos-grid-container home-slider left">
+              <div className="home-slider-header">
+              <h1 className="supra colored-text">
+                Obtiens un brevet de formation, a l'issue d'un projet de stage.
+              </h1>
+              <h2 className="home-intro">
+                Notre pédagogie basée sur des projets réels portés par des problématiques reelles et variées, est sanctionné un brevet obtenu a la fin de ta formation, apres une presentation devant un jury d'experts.
+              </h2>
+              </div>
+              <ul className="clarify three">
                 <li>
                   <SquaredButton
                     size="x2"
@@ -127,10 +144,12 @@ const IndexPage = ({ data }) => {
                     backgroundColor="var(--background-blured)"
                   />
                   <h2>
-                    Vous evoluérez rapidement, <br />dans un cadre collaboratif.
+                    Apprendre avec le « savoir par le faire » et ameliorer le « savoir etre »
                   </h2>
                   <p>
-                    Toucher des le depart des exemples et apprenez tres vites a monter des projets de design et de codage de A-z.
+                    Pas besoin d'etre un designer pour etre faire des choses creatives,
+                    que nous apprendrons ensemble, grace a des activités, ateliers et projets
+                    qui jalonnerons votre evolutions.
                   </p>
                 </li>
                 <li>
@@ -142,79 +161,29 @@ const IndexPage = ({ data }) => {
                     backgroundColor="var(--background-blured)"
                   />
                   <h2>
-                    Vous serez a la pointe de la technologie.
+                    Vous pratiquerez dans votre domaine dès le jour 1.
                   </h2>
                   <p>
-                    Toucher des le depart des exemples et apprenez tres vites a monter des projets de design et de codage de A-z.
-                        </p>
+                    C'est dans la pratique que reside l'experience. Nous concevons nos cours
+                    pour rapidement prendre en main votre futur metier, partant de zero, nous vous aiderons
+                    à produire des resultat, rapidement, et de classe.                        </p>
                 </li>
+                
               </ul>
             </div>
           </div>
 
           <div className="cosmos-section semi-height  padded-64">
-            <div className="cosmos-grid-container home-slider ">
+            <div className="cosmos-grid-container home-slider center">
             <div className="home-slider-header">
-                <h1 className="mega">
-                  Un certificat de fin de formation !
-                </h1>
-                {/* <h3>
-                  A la fin de votre formation, nous vous delivrons un certificat, 
-                  pour faire valoir legalement votre non seulement savoir, mais egalement votre savoir-faire et vos savoir-etre 😏.
-                  l'OTL Verified Certificate est obtenu grace à :
-                </h3> */}
-              </div>
-              <ul className="clarify one-large">
-                <li>
-                  <SquaredButton
-                    size="x1"
-                    cosmoIcon="true"
-                    icon="teacher-presentation"
-                    iconColor="var(--text-color)"
-                    backgroundColor="var(--background-blured)"
-                  />
-                  <div className="clarify-group">
-
-                  <h2>
-                    Un systeme de validation des acquis
-                  </h2>
-                  <p>
-                    Pas besoin d'etre un designer pour etre faire des choses creatives,
-                    que nous apprendrons ensemble, grace a des activités, ateliers et projets
-                    qui jalonnerons votre evolutions.
-                  </p>
-                  </div>
-                </li>
-                <li>
-                  <SquaredButton
-                    size="x1"
-                    cosmoIcon="true"
-                    icon="teacher-presentation"
-                    iconColor="var(--text-color)"
-                    backgroundColor="var(--background-blured)"
-                  />
-                  <div className="clarify-group">
-                    <h2>
-                      Vous pratiquerez dans votre domaine dès le jour 1.
-                    </h2>
-                    <p>
-                      C'est dans la pratique que reside l'experience. Nous concevons nos cours
-                      pour rapidement prendre en main votre futur metier, partant de zero, nous vous aiderons
-                      à produire des resultat, rapidement, et de classe.</p>
-                  </div>
-                  </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="cosmos-section semi-height  padded-64">
-            <div className="cosmos-grid-container home-slider center">
-              <div className="home-slider-header">
-              <h1 className="mega">
-                Que vas-tu apprendre <br />avec nous ?
+              <h1 className="supra colored-text">
+                Un cursus personalisé, repondant au attente du marché.
               </h1>
+              <h2 className="home-intro">
+                    Nous ne te donnons pas seulement des competences techniques, mais egalement nous te preparons aux monde de l'emploi grâce à de competence transversalles, au choix.
+              </h2>
               </div>
-              <ul className="clarify four">
+              <ul className="clarify three">
                 <li>
                   <SquaredButton
                     size="x2"
@@ -224,7 +193,7 @@ const IndexPage = ({ data }) => {
                     backgroundColor="var(--background-blured)"
                   />
                   <h2>
-                    Vous apprendrez avec des creatifs et des passionnés.
+                    L'anglais pratique, pour elargir le champs de possibilité.
                   </h2>
                   <p>
                     Pas besoin d'etre un designer pour etre faire des choses creatives,
@@ -241,7 +210,7 @@ const IndexPage = ({ data }) => {
                     backgroundColor="var(--background-blured)"
                   />
                   <h2>
-                    Vous pratiquerez dans votre domaine dès le jour 1.
+                    Le design thinking, pour s'incruster dans une dynamique de changement.
                   </h2>
                   <p>
                     C'est dans la pratique que reside l'experience. Nous concevons nos cours
@@ -257,22 +226,7 @@ const IndexPage = ({ data }) => {
                     backgroundColor="var(--background-blured)"
                   />
                   <h2>
-                    Vous evoluérez rapidement, <br />dans un cadre collaboratif.
-                  </h2>
-                  <p>
-                    Toucher des le depart des exemples et apprenez tres vites a monter des projets de design et de codage de A-z.
-                  </p>
-                </li>
-                <li>
-                  <SquaredButton
-                    size="x2"
-                    cosmoIcon="true"
-                    icon="teacher-presentation"
-                    iconColor="var(--text-color)"
-                    backgroundColor="var(--background-blured)"
-                  />
-                  <h2>
-                    Vous serez a la pointe de la technologie.
+                    La conduite automobile, pour prevoir de nouvelle responsabilité.
                   </h2>
                   <p>
                     Toucher des le depart des exemples et apprenez tres vites a monter des projets de design et de codage de A-z.
@@ -300,89 +254,16 @@ const IndexPage = ({ data }) => {
                 </div>
             </div>
           </div>
-          <div className="cosmos-section semi-height  padded-64">
-            <div className="cosmos-grid-container home-slider center">
-              <div className="home-slider-header">
-              <h1 className="mega">
-                Pourquoi venir apprendre <br />avec nous ?
-              </h1>
-              </div>
-              <ul className="clarify four">
-                <li>
-                  <SquaredButton
-                    size="x2"
-                    cosmoIcon="true"
-                    icon="teacher-presentation"
-                    iconColor="var(--text-color)"
-                    backgroundColor="var(--background-blured)"
-                  />
-                  <h2>
-                    Vous apprendrez avec des creatifs et des passionnés.
-                  </h2>
-                  <p>
-                    Pas besoin d'etre un designer pour etre faire des choses creatives,
-                    que nous apprendrons ensemble, grace a des activités, ateliers et projets
-                    qui jalonnerons votre evolutions.
-                  </p>
-                </li>
-                <li>
-                  <SquaredButton
-                    size="x2"
-                    cosmoIcon="true"
-                    icon="teacher-presentation"
-                    iconColor="var(--text-color)"
-                    backgroundColor="var(--background-blured)"
-                  />
-                  <h2>
-                    Vous pratiquerez dans votre domaine dès le jour 1.
-                  </h2>
-                  <p>
-                    C'est dans la pratique que reside l'experience. Nous concevons nos cours
-                    pour rapidement prendre en main votre futur metier, partant de zero, nous vous aiderons
-                    à produire des resultat, rapidement, et de classe.                        </p>
-                </li>
-                <li>
-                  <SquaredButton
-                    size="x2"
-                    cosmoIcon="true"
-                    icon="teacher-presentation"
-                    iconColor="var(--text-color)"
-                    backgroundColor="var(--background-blured)"
-                  />
-                  <h2>
-                    Vous evoluérez rapidement, <br />dans un cadre collaboratif.
-                  </h2>
-                  <p>
-                    Toucher des le depart des exemples et apprenez tres vites a monter des projets de design et de codage de A-z.
-                  </p>
-                </li>
-                <li>
-                  <SquaredButton
-                    size="x2"
-                    cosmoIcon="true"
-                    icon="teacher-presentation"
-                    iconColor="var(--text-color)"
-                    backgroundColor="var(--background-blured)"
-                  />
-                  <h2>
-                    Vous serez a la pointe de la technologie.
-                  </h2>
-                  <p>
-                    Toucher des le depart des exemples et apprenez tres vites a monter des projets de design et de codage de A-z.
-                        </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="cosmos-section semi-height  padded-64">
+          
+           <div className="cosmos-section semi-height  padded-64">
             <div className="cosmos-grid-container home-slider ">
             <div className="home-slider-header">
-                <h1 className="mega">
-                  Les questions qu'ont nous pose tres souvent
-                </h1>
-                <h3>
-                  Pas encore convaincu ? peut etre comme d'autre, des question trottent encore dans votre esprit ... voyons voir
-                </h3>
+              <h1 className="supra colored-text">
+                Nous repondons a quelques de tes preaucupations
+              </h1>
+              <h2 className="home-intro">
+                Vous avez une question ? Peut être nous avons deja la reponse ici.
+              </h2>
               </div>
               <ul className="clarify one-large full">
                 <li>
@@ -448,6 +329,25 @@ const IndexPage = ({ data }) => {
               </ul>
             </div>
 
+          </div>
+          <div className="cosmos-section semi-height  ">
+            <div className="cosmos-grid-container home-card whited large">
+                <div className ="card-group">
+                  <h1 className="mega">
+                    Laissez-nous une de vos contacts pour etre le premier a connaitre notre actualité
+                  </h1>
+                  <h3>
+                    Inscrivez-vous aux prochains programmes de formation pour les sessions d'octobre.
+                  </h3>
+                  <TextButton
+                    icon="ion-ios-arrow-right" 
+                    text="Envoyez votre candidature"
+                    background={true}
+                    backgroundColor="var(--primary-color)"
+                    textColor="var(--text-color)"
+                  />
+                </div>
+            </div>
           </div>
         </Layout>
       </>

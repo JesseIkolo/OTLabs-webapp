@@ -32,7 +32,7 @@ h1{
 h2 {
    font-style: normal;
    font-size: 20px;
-   line-height: 150%;
+   line-height: 170%;
    margin-bottom: 16px;
    font-family: 'Sharp Grotesk DB Cyr SmBold 20', sans-serif;
 }
@@ -450,9 +450,26 @@ body {
 }
 
 .home-slider.center h1,.home-slider.center h3, .home-slider.center .home-slider-header{
-   grid-column: 3 / 10;
+   grid-column: 2 / 12 ;
    text-align: center;
    grid-row-start: span 2;
+}
+
+.home-slider.left .home-slider-header{
+   grid-column: 1 / 10;
+   grid-row-start: span 1;
+}
+
+.home-slider h1{
+   margin-bottom: 32px;
+}
+
+.home-slider.left h2{
+   text-align: left;
+   grid-row-start: span 2;
+   line-height: 150%;
+   opacity: 90%;
+   width: calc(100% - 64px);
 }
 
 .home-slider h1.larger{
